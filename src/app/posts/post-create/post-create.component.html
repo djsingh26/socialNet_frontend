@@ -1,0 +1,6 @@
+<!-- <textArea rows="6" [value]="'Test'">{{ newPost }}</textArea> -->
+<!-- <textArea rows="6" [value]= 'newPost' #postInput></textArea> -->
+<textArea rows="6" [(ngModel)]="enteredValue"></textArea>
+<hr>
+<button (click)="onAddPost()">Save Post</button>
+<p>{{ newPost }}</p>
